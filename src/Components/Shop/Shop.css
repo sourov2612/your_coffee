@@ -1,0 +1,19 @@
+.shopContainer{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.productContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cartContainer{
+    background-color: rgb(241, 141, 105); 
+    border-radius: 10px;
+    margin-top: 40px; 
+    margin-right: 15px; 
+    height: 500px; 
+    position: sticky;
+    top: 0;
+}
